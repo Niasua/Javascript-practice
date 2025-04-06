@@ -1,0 +1,90 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body {
+    min-height: 100vh;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 22px;
+}
+
+h1 {
+    padding: 8px;
+    font-size: 50px;
+    font-weight: bold;
+    background-color: rgba(0, 0, 0, 0.08);
+    border-radius: 6px;
+    margin-bottom: 48px;
+}
+
+#btn {
+    min-height: 500px;
+    min-width: 500px;
+    border-radius: 100%;
+    font-size: 72px;
+    text-align: center;
+    font-weight: bold;
+    background-color: rgba(34, 33, 34, 0.765);
+    color: white;
+    cursor: pointer;
+}
+
+#btn:hover {
+    background-color: rgba(13, 12, 12, 0.492);
+    /* font-size: 62px;
+    min-height: 480px;
+    min-width: 480px; */
+    box-shadow: 10px 5px 5px rgba(75, 74, 74, 0.294);
+    transform: scale(.98);
+    transition: 0.2s ease;
+}
+
+.current-color {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-top: 32px;
+    scale: 1.125;
+}
+
+p {
+    font-size: 18px;
+    font-weight: bold;
+    background-color: rgba(0, 0, 0, 0.08);
+    padding: 8px;
+    border-radius: 6px;
+}
+
+#copy-btn {
+    max-width: 30px;
+    height: 35px;
+    border-radius: 6px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(128, 128, 128, 0.74);
+}
+#copy-btn:hover {
+    background-color: rgba(128, 128, 128, 0.379);
+    cursor: pointer;
+    transform: scale(1.1);
+    transition: 0.2s ease;
+}
+
+#copy-image {
+    max-width: 60%;
+    height: auto;
+}
+
+
+
+
+
