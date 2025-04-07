@@ -94,6 +94,8 @@ h1 {
     margin-bottom: 40px;
     background-color: #22190d;
     gap: 2px;
+    overflow-y: auto;
+    padding-right: 10px;
 }
 
 .book-row {
