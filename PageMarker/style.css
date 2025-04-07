@@ -30,8 +30,25 @@ html, body {
     background-color: #362b26;
 }
 
-h1 {
+.navbar {
+    display: flex;
+    align-items: center;
+}
+
+#icon {
+    width: 10%;
+    height: auto;
     margin-top: 20px;
+    margin-left: 65px;
+    border-radius: 15px;
+}
+#icon:hover {
+    transform: scale(.97);
+    opacity: .9;
+}
+
+h1 {
+    padding-left: 220px;
     color: #d3d3d3;
     font-size: 48px;
     font-weight: bold;
