@@ -38,10 +38,19 @@ input.addEventListener("keydown", (e) => {
 function renderBook(bookObj) {
     const bookRow = document.createElement("div");
     bookRow.classList.add("book-row");
+    bookRow.setAttribute("draggable", "true");
 
     // The book container
     const book = document.createElement("div");
     book.classList.add("book");
+
+    // Drag handle
+    const dragHandle = document.createElement("span");
+    dragHandle.classList.add("drag-handle");
+    const imgDrag = document.createElement("img");
+    imgDrag.src = "./images/drag.png";
+    imgDrag.id = "img-drag";
+    dragHandle.appendChild(imgDrag);
 
     // Title in a span (so we can access it separately)
     const titleSpan = document.createElement("span");
@@ -55,7 +64,10 @@ function renderBook(bookObj) {
     pageInput.classList.add("page-input");
     pageInput.value = bookObj.page;
 
-    // Append both to book
+
+    
+    // Append to book
+    book.appendChild(dragHandle);
     book.appendChild(titleSpan);
     book.appendChild(pageInput);
 
@@ -144,10 +156,26 @@ function renderBook(bookObj) {
 
 
 
-
-
+    Sortable.create(bookContainer, {
+        animation: 150,
+        handle: ".drag-handle",
+        onEnd: () => {
+          // Save the new order in localStorage
+          const updatedBooks = [];
+          document.querySelectorAll(".book-row").forEach(row => {
+            const title = row.querySelector(".book-title").textContent;
+            const page = row.querySelector(".page-input").value;
+            const book = books.find(b => b.title === title);
+            if (book) updatedBooks.push(book);
+          });
+          books = updatedBooks;
+          localStorage.setItem("books", JSON.stringify(books));
+        }
+      });
 }
 
 
 
 
+
+ 

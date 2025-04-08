@@ -127,7 +127,7 @@ h1 {
 
 .book {
     background-color: #917569;
-    font-size: 28px;
+    font-size: 23px;
     font-weight: bold;
     color: #d3d3d3;
     display: flex;
@@ -207,3 +207,24 @@ h1 {
     font-size: 24px;
     font-weight: bold;
 }
+
+/* drag handle */
+.drag-handle {
+    cursor: grab;
+    padding: 15px;
+    margin-right: 8px;
+    font-size: 18px;
+    user-select: none;  
+}
+.dragging .drag-handle {
+    cursor: grabbing;
+}
+#img-drag {
+    width: 30px;
+    height: auto;
+}
+#img-drag:hover {
+    opacity: .9;  
+    transform: scale(1.2);
+}
+  
