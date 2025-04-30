@@ -21,7 +21,7 @@ A simple To-Do List web application built with JavaScript. It allows you to add 
 - Mark tasks as completed
 
 #### Demo:
-![ToDo List](https://niasua.github.io/Javascript-practice/js/toDoList/images/toDoList.gif)
+[ToDo List](https://niasua.github.io/Javascript-practice/js/toDoList/images/toDoList.gif)
 
 ### Try it!
 
@@ -39,11 +39,11 @@ A small web app that lets you change the background color of the page by clickin
 - Simple design
 
 #### Demo:
-![Color Changer](https://niasua.github.io/Javascript-practice/js/toDoList/images/toDoList.gif)
+[Color Changer](https://niasua.github.io/Javascript-practice/js/toDoList/images/toDoList.gif)
 
 ### Try it!
 
-![Try colorChanger](https://niasua.github.io/Javascript-practice/colorChanger/)
+[Try colorChanger](https://niasua.github.io/Javascript-practice/colorChanger/)
 
 ---
 
@@ -57,11 +57,11 @@ A basic calculator built with HTML, CSS, and JavaScript. It supports basic arith
 - Responsive design
 
 #### Demo:
-![Calculator](https://niasua.github.io/Javascript-practice/js/toDoList/images/toDoList.gif)
+[Calculator](https://niasua.github.io/Javascript-practice/js/toDoList/images/toDoList.gif)
 
 ### Try it!
 
-![Try calculadora](https://niasua.github.io/Javascript-practice/calculadora/)
+[Try calculadora](https://niasua.github.io/Javascript-practice/calculadora/)
 
 ---
 
@@ -76,11 +76,11 @@ This project allows users to mark the page number of books they are reading, hel
 - Saves on local storage
 
 #### Demo:
-![Page Marker](https://niasua.github.io/Javascript-practice/js/toDoList/images/toDoList.gif)
+[Page Marker](https://niasua.github.io/Javascript-practice/js/toDoList/images/toDoList.gif)
 
 ### Try it!
 
-![Try PageMarker](https://niasua.github.io/Javascript-practice/PageMarker/)
+[Try PageMarker](https://niasua.github.io/Javascript-practice/PageMarker/)
 
 ---
 
