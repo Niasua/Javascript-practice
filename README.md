@@ -21,7 +21,7 @@ A simple To-Do List web application built with JavaScript. It allows you to add 
 - Mark tasks as completed
 
 #### Demo:
-![ToDo List](./images/toDoList.gif)
+![ToDo List](./toDoList/images/toDoList.gif)
 
 ### Try it!
 
@@ -39,7 +39,7 @@ A small web app that lets you change the background color of the page by clickin
 - Simple design
 
 #### Demo:
-![Color Changer](./images/colorChanger.gif)
+![Color Changer](./colorChanger/images/colorChanger.gif)
 
 ### Try it!
 
@@ -57,7 +57,7 @@ A basic calculator built with HTML, CSS, and JavaScript. It supports basic arith
 - Responsive design
 
 #### Demo:
-![Calculator](./images/calculadora.gif)
+![Calculator](./calculadora/images/calculadora.gif)
 
 ### Try it!
 
@@ -76,7 +76,7 @@ This project allows users to mark the page number of books they are reading, hel
 - Saves on local storage
 
 #### Demo:
-![Page Marker](./images/PageMarker.gif)
+![Page Marker](./PageMarker/images/PageMarker.gif)
 
 ### Try it!
 
