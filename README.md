@@ -26,7 +26,7 @@ A simple To-Do List web application built with JavaScript. It allows you to add 
 
 ### Try it!
 
-![Try toDoList](https://niasua.github.io/Javascript-practice/toDoList/)
+[Try toDoList](https://niasua.github.io/Javascript-practice/toDoList/)
 
 
 ---
